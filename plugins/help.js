@@ -2,7 +2,7 @@ const { malvin } = require("../malvin");
 const moment = require("moment");
 
 let botStartTime = Date.now();
-const ALIVE_IMG = "https://files.catbox.moe/4itzeu.jpg";
+const ALIVE_IMG = "https://files.catbox.moe/faespg.jpg";
 
 malvin({
     pattern: "help",
@@ -26,49 +26,46 @@ malvin({
         })();
 
         const caption = `
-╭━━━[ 🤖 𝐋𝐔𝐂𝐊𝐘-𝐗𝐃 𝐁𝐎𝐓 ]━━━╮
+╭━━━〔 ⚡ 𝐄𝐌𝐨𝐧-𝐁𝐡𝐚𝐢-𝐁𝐨𝐭 ⚡ 〕━━━╮
 ┃ 👤 *User:* ${pushname}
 ┃ 📆 *Date:* ${date}
 ┃ 🕒 *Time:* ${time}
 ┃ ⏳ *Uptime:* ${uptime}
-╰━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 🔸 *Available Commands Categories:*
 
-📌 𝗚𝗲𝗻𝗲𝗿𝗮𝗹
+📌 𝗚𝗲𝗻𝗲𝗿𝗮𝗹  
 • say, ping, alive, infoBot, menu
 
-🛠 𝗔𝘂𝗱𝗶𝗼 𝗘𝗳𝗳𝗲𝗰𝘁𝘀
+🛠 𝗔𝘂𝗱𝗶𝗼 𝗘𝗳𝗳𝗲𝗰𝘁𝘀  
 • bass, blown, deep, fast, nightcore, robot, reverse, slow, earrape
 
-🎨 𝗔𝗜 / 𝗚𝗘𝗡𝗔𝗜
-• lucky, luckyai, ai, gpt, dalle, bug
+🎨 𝗔𝗜 / 𝗚𝗘𝗡𝗔𝗜  
+• emon, emonai, ai, gpt, dalle, bug
 
-🧰 𝗧𝗼𝗼𝗹𝘀
+🧰 𝗧𝗼𝗼𝗹𝘀  
 • calculator, tts, tempmail, binary, attr, mp3, emojimix
 
-📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿𝘀
+📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿𝘀  
 • youtube, play, ytmp3, ytmp4, instagram, facebook, pinterest, apk
 
-👥 𝗚𝗿𝗼𝘂𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+👥 𝗚𝗿𝗼𝘂𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁  
 • kick, promote, demote, welcome, group, setppgc, setdesc, setname, linkgroup
 
-🔎 𝗦𝗲𝗮𝗿𝗰𝗵
+🔎 𝗦𝗲𝗮𝗿𝗰𝗵  
 • google, imdb, pinterest, play, youtube
 
-👑 𝗢𝘄𝗻𝗲𝗿 𝗢𝗻𝗹𝘆
+👑 𝗢𝘄𝗻𝗲𝗿 𝗢𝗻𝗹𝘆  
 • join, leave, block, unblock, setppbot, anticall
 
-⭐ 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 / 𝗕𝘂𝗴 𝗧𝗼𝗼𝗹𝘀
-> cooming soon
-• bugmenu, docbug, unlimitedbug
+⭐ 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 / 𝗕𝘂𝗴 𝗧𝗼𝗼𝗹𝘀  
+• coming soon → bugmenu, docbug, unlimitedbug
 
-🆘 *Use commands with prefix:*.*  or any configured one.
+🆘 *Use commands with prefix:*  .  or your configured one.
 
-🧠 *Bot is fully online and operational!*
-🌐 *Built by:* Mr. Tomi Lucky 218
-📡 *Follow newsletter for updates!*
-
+🧠 *Bot is fully online and operational!*  
+🌐 *Built by:* ⚡ 𝐄𝐌𝐨𝐧-𝐁𝐡𝐚𝐢 ⚡
         `.trim();
 
         const isValidImage = ALIVE_IMG && ALIVE_IMG.startsWith("http");
@@ -83,7 +80,7 @@ malvin({
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420656466131@newsletter',
-                        newsletterName: '𝗟𝗨𝗖𝗞𝗬-𝗫𝗗 𝗕𝗢𝗧',
+                        newsletterName: '𝐄𝐌𝐨𝐧-𝐁𝐡𝐚𝐢-𝐁𝐨𝐭',
                         serverMessageId: 143
                     }
                 }
