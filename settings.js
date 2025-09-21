@@ -28,7 +28,7 @@ module.exports = {
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "EMON HAWLADAR",
   DEV: process.env.DEV || "8801309991724",
   DEVELOPER_NUMBER: '8801309991724@s.whatsapp.net',
-  MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
+  MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/fq5s1u.mp3',
 NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
 
   // ===== AUTO-RESPONSE SETTINGS =====
