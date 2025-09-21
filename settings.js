@@ -26,8 +26,8 @@ module.exports = {
   // ===== OWNER & DEVELOPER SETTINGS =====
   OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "8801309991724",
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "EMON HAWLADAR",
-  DEV: process.env.DEV || "256789966218",
-  DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
+  DEV: process.env.DEV || "8801309991724",
+  DEVELOPER_NUMBER: '8801309991724@s.whatsapp.net',
   MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
 NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
 
@@ -38,11 +38,11 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   READ_MESSAGE: process.env.READ_MESSAGE || "false",
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*",
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/faespg.jpg",
-  LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ʟᴜᴄᴋʏ xᴅ✦ ғʀᴏᴍ ʟᴜᴄᴋʏ ᴛᴇᴄʜ ʜᴜʙ  ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/Tomilucky218/Lucky-XD2",
+  LIVE_MSG: process.env.LIVE_MSG || "> Bot Admin EMon-BHai",
 
   // ===== REACTION & STICKER SETTINGS =====
   AUTO_REACT: process.env.AUTO_REACT || "false",
-  OWNER_REACT: process.env.OWNER_REACT || "false",
+  OWNER_REACT: process.env.OWNER_REACT || "true",
   CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
   CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
   STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ",
@@ -50,14 +50,14 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
 
   // ===== MEDIA & AUTOMATION =====
   AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
-  AUTO_TYPING: process.env.AUTO_TYPING || "false",
-  MENTION_REPLY: process.env.MENTION_REPLY || "false",
+  AUTO_TYPING: process.env.AUTO_TYPING || "true",
+  MENTION_REPLY: process.env.MENTION_REPLY || "true",
   MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/faespg.jpg",
 
   // ===== SECURITY & ANTI-FEATURES =====
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   ANTI_CALL: process.env.ANTI_CALL || "false",
-  ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
+  ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
   ANTI_LINK: process.env.ANTI_LINK || "true",
   ANTI_VV: process.env.ANTI_VV || "true",
   DELETE_LINKS: process.env.DELETE_LINKS || "false",
@@ -66,33 +66,33 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
-  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By EMon-BHai*",
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
-  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
   AUTO_BIO: process.env.AUTO_BIO || "false",
-  WELCOME: process.env.WELCOME || "false",
-  GOODBYE: process.env.GOODBYE || "false",
-  ADMIN_ACTION: process.env.ADMIN_ACTION || "false",
+  WELCOME: process.env.WELCOME || "true",
+  GOODBYE: process.env.GOODBYE || "true",
+  ADMIN_ACTION: process.env.ADMIN_ACTION || "true",
   version: process.env.version || "1.5.0",
-  TIMEZONE: settings.TIMEZONE || process.env.TIMEZONE || "Africa/Kampala",
+  TIMEZONE: settings.TIMEZONE || process.env.TIMEZONE || "Asia/Dhaka",
 
   // ===== CATEGORY-SPECIFIC IMAGE URLs =====
   MENU_IMAGES: {
-    '1': process.env.DOWNLOAD_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Download Menu
-    '2': process.env.GROUP_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Group Menu
-    '3': process.env.FUN_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",       // Fun Menu
-    '4': process.env.OWNER_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Owner Menu
-    '5': process.env.AI_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",         // AI Menu
-    '6': process.env.ANIME_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Anime Menu
-    '7': process.env.CONVERT_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Convert Menu
-    '8': process.env.OTHER_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",   // Other Menu
-    '9': process.env.REACTION_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Reaction Menu
-    '10': process.env.MAIN_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",    // Main Menu
-    '11': process.env.LOGO_MAKER_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Logo Maker Menu
-    '12': process.env.SETTINGS_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg", // Settings Menu
-    '13': process.env.AUDIO_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg",  // Audio Menu
-    '14': process.env.PRIVACY_MENU_IMAGE || "https://files.catbox.moe/4itzeu.jpg" // Privacy Menu
+    '1': process.env.DOWNLOAD_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg", // Download Menu
+    '2': process.env.GROUP_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",   // Group Menu
+    '3': process.env.FUN_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",       // Fun Menu
+    '4': process.env.OWNER_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",   // Owner Menu
+    '5': process.env.AI_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",         // AI Menu
+    '6': process.env.ANIME_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",   // Anime Menu
+    '7': process.env.CONVERT_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg", // Convert Menu
+    '8': process.env.OTHER_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",   // Other Menu
+    '9': process.env.REACTION_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg", // Reaction Menu
+    '10': process.env.MAIN_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",    // Main Menu
+    '11': process.env.LOGO_MAKER_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg", // Logo Maker Menu
+    '12': process.env.SETTINGS_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg", // Settings Menu
+    '13': process.env.AUDIO_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg",  // Audio Menu
+    '14': process.env.PRIVACY_MENU_IMAGE || "https://files.catbox.moe/faespg.jpg" // Privacy Menu
   }
 };
