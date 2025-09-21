@@ -14,7 +14,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=511080&center=true&width=1150&height=200&lines=PLEASE-FORK-STAR-BOT-REPO" alt="Typing SVG" /></a>
 </div>
-<a><img src='https://files.catbox.moe/4itzeu.jpg'/></a>
+<a><img src='[https://files.catbox.moe/4itzeu.jpg](https://files.catbox.moe/faespg.jpg)'/></a>
 
 <!-- 📊 STATS & HERO ANIMATION -->
 <div align="center">
